@@ -8,10 +8,10 @@ LipNet is a deep learning model for lip-reading that utilizes spatiotemporal con
 
 ## Features
 
-- **Complete Pipeline:** End-to-end code covering dataset preprocessing, model definition, training, and evaluation.
+- **Complete Pipeline:** End-to-end code covering dataset preprocessing, model definition, training, and evaluation using CTC error.
 - **PyTorch Implementation:** Leverages PyTorch for flexibility and ease of use.
 - **GRID Dataset Support:** Ready-to-run scripts for the GRID dataset.
-- **Model Compression (WIP):** Exploration of quantization and pruning techniques.  
+- **Model Compression (WIP):** Exploration of various compression techniques (quantization and structured pruning among others).  
   _Note:_ Initial experiments with tools like [Distiller](https://github.com/IntelLabs/distiller) and [MCT](https://github.com/sony/model_optimization) were limited by non-existent RNN support. Future updates may include custom solutions.
 
 ## Installation
